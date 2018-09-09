@@ -1,0 +1,7 @@
+<h3>Deck - {{ player }}</h3>
+
+<div *ngIf="deck">
+  <span *ngFor="let card of deck.cards">
+    <app-card [card]="card"></app-card>
+  </span>
+</div>

@@ -16,6 +16,7 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "skipLibCheck": false // https://github.com/cypress-io/cypress/issues/1087
   }
 }
